@@ -28,5 +28,13 @@ class Homecontroller extends Controller
         return view('index',['idioma' =>$idioma ]);
     }
 
+    public function indexEE(){
+
+        App::setLocale('en');
+        $idioma='english';
+        return view('index',['idioma' =>$idioma ]);
+    }
+
+
 
 }
