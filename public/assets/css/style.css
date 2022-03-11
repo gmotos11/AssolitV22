@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 15px;
+  bottom: 105px;
   z-index: 996;
   background: #cc1616;
   width: 40px;
@@ -203,7 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar a, .navbar a:focus {
   display: flex;
   align-items: center;
-  /*justify-content: space-between;*/
+  justify-content: space-between;
   padding: 25px 15px 24px 15px;
   font-size: 14px;
   color: #fff;
