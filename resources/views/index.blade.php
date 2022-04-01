@@ -74,7 +74,7 @@
           <li class="dropdown"><a href="#"><span>{{trans('multi_leng.ES_arriba')}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/ca"><img src="{{trans('multi_leng.idioma_img_CA')}}" width="20" height="10">{{trans('multi_leng.idioma_CA')}}</a></li>
-             <!-- <li><a href="/"><img src="assets/img/leng/lengES.jpg" width="20" height="10">ㅤEs</a></li> -->
+              <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_EN')}}" width="20" height="10">{{trans('multi_leng.idioma_EN')}}</a></li>
             </ul>
           </li>
 @endif
@@ -83,7 +83,16 @@
           <li class="dropdown"><a href="#"><span>{{trans('multi_leng.CA_arriba')}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/"><img src="{{trans('multi_leng.idioma_img_ES')}}" width="20" height="10">{{trans('multi_leng.idioma_ES')}}</a></li>
-             <!-- <li><a href="/"><img src="assets/img/leng/lengES.jpg" width="20" height="10">ㅤEs</a></li> -->
+              <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_EN')}}" width="20" height="10">{{trans('multi_leng.idioma_EN')}}</a></li>
+            </ul>
+          </li>
+@endif
+
+@if ($idioma=='english')
+          <li class="dropdown"><a href="#"><span>{{trans('multi_leng.EN_arriba')}}</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+            <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_ES')}}" width="20" height="10">{{trans('multi_leng.idioma_ES')}}</a></li>
+            <li><a href="/ca"><img src="{{trans('multi_leng.idioma_img_CA')}}" width="20" height="10">{{trans('multi_leng.idioma_CA')}}</a></li>
             </ul>
           </li>
 @endif

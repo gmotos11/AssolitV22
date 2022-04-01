@@ -22,4 +22,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[Homecontroller::class,'indexES']);
 Route::get('/ca',[Homecontroller::class,'indexCA']);
-//Route::get('/en',[Homecontroller::class,'indexEN']);
+Route::get('/en',[Homecontroller::class,'indexEN']);
