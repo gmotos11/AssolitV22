@@ -28,7 +28,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
-
+  <link href="assets/css/gm.css" rel="stylesheet">
   <!-- =======================================================
   * Template Name: Day - v4.7.0
   * Template URL: https://bootstrapmade.com/day-multipurpose-html-template-for-free/
@@ -63,18 +63,18 @@
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">{{trans('multi_leng.ES_arriba')}}</a></li>
-          <li><a class="nav-link scrollto" href="#about">{{trans('multi_leng.ES_arriba')}}</a></li>
-          <li><a class="nav-link scrollto" href="#services">{{trans('multi_leng.ES_arriba')}}</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">{{trans('multi_leng.ES_arriba')}}</a></li>
-          <li><a class="nav-link scrollto" href="#contact">{{trans('multi_leng.ES_arriba')}}</a></li>
+          <li><a class="nav-link scrollto active" href="#hero">{{trans('multi_leng.home')}}</a></li>
+          <li><a class="nav-link scrollto" href="#about">{{trans('multi_leng.about')}}</a></li>
+          <li><a class="nav-link scrollto" href="#services">{{trans('multi_leng.service')}}</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">{{trans('multi_leng.projects')}}</a></li>
+          <li><a class="nav-link scrollto" href="#contact">{{trans('multi_leng.contact')}}</a></li>
          
 
 @if ($idioma=='español')
           <li class="dropdown"><a href="#"><span>{{trans('multi_leng.ES_arriba')}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/ca"><img src="{{trans('multi_leng.idioma_img_CA')}}" width="20" height="10">{{trans('multi_leng.idioma_CA')}}</a></li>
-              <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_EN')}}" width="20" height="10">{{trans('multi_leng.idioma_EN')}}</a></li>
+              <li><a href="/ca"><img src="{{trans('multi_leng.idioma_img_CA')}}"  width="20" height="10">{{trans('multi_leng.idioma_CA')}}</a></li>
+              <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_EN')}}" class="idioma_mrg" width="20" height="10">{{trans('multi_leng.idioma_EN')}}</a></li>
             </ul>
           </li>
 @endif
@@ -91,7 +91,7 @@
 @if ($idioma=='english')
           <li class="dropdown"><a href="#"><span>{{trans('multi_leng.EN_arriba')}}</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-            <li><a href="/en"><img src="{{trans('multi_leng.idioma_img_ES')}}" width="20" height="10">{{trans('multi_leng.idioma_ES')}}</a></li>
+            <li><a href="/"><img src="{{trans('multi_leng.idioma_img_ES')}}" width="20" height="10">{{trans('multi_leng.idioma_ES')}}</a></li>
             <li><a href="/ca"><img src="{{trans('multi_leng.idioma_img_CA')}}" width="20" height="10">{{trans('multi_leng.idioma_CA')}}</a></li>
             </ul>
           </li>
