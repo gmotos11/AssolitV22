@@ -1,6 +1,13 @@
 <?php 
 return [
-    'contact'   => 'contacto/español.',
+    //==HEADER== 
+    'home'   => 'Inicio',
+    'about'   => 'Nosotros ',
+    'service'   => 'Servicios ',
+    'projects'   => 'Proyectos ',
+    'contact'   => 'Contacto ',
+    
+    //Header-idiomas
     'idioma_CA'   => 'Catalá(CA)',
     'idioma_ES'   => 'Español(ES)',
     'idioma_EN'   => 'English(EN)',
