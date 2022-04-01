@@ -5,13 +5,15 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Day Bootstrap Template - Index</title>
+  <title>Assolit SL</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="assets/img/favicon/site.webmanifest">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
@@ -112,27 +114,36 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" style="height: 500px">
         <div class="carousel-item active">
-          <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>First slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <img src="assets/img/slider/foto_slider_1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption-config carousel-caption" style="font-weight: bold">
+            <h2>{{trans('multi_leng.titulo_slider')}}</h2>
+            <h5>{{trans('multi_leng.cont_slider')}}</h5>
+            <a class="btn-slider" href="#">Slider Action</a>
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Second slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h5>{{trans('multi_leng.titulo_slider2')}}</h5>
+            <p>{{trans('multi_leng.cont_slider2')}}</p>
           </div>
         </div>
         <div class="carousel-item">
           <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Third slide label</h5>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h5>{{trans('multi_leng.titulo_slider3')}}</h5>
+            <p>{{trans('multi_leng.titulo_slider3')}}</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>{{trans('multi_leng.titulo_slider4')}}</h5>
+            <p>{{trans('multi_leng.titulo_slider4')}}</p>
           </div>
         </div>
       </div>
@@ -209,7 +220,7 @@
               <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
             </div>
           </div>
-
+          
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>03</span>
