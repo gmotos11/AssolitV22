@@ -122,7 +122,7 @@
           <div class="carousel-caption-config carousel-caption" style="font-weight: bold">
             <h2>{{trans('multi_leng.titulo_slider')}}</h2>
             <h5>{{trans('multi_leng.cont_slider')}}</h5>
-            <a class="btn-slider" href="#">Slider Action</a>
+            <a class="btn-slider" href="#">{{trans('multi_leng.btn_slider')}}</a>
           </div>
         </div>
         <div class="carousel-item">

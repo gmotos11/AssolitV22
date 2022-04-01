@@ -27,8 +27,10 @@ return [
     'QS_ThirdTick'   => '	Proveemos de herramientas de la gestión simplificadas aportando de los equipos de mantenimiento de cada organización agilidad en la asimilación y operación de los sistemas sin tener que hacer frente a una compleja curva de aprendizaje. ',
     'QS_LastP'   => 'Trabajamos con los fabricantes lideres del mercado. Además, somos socios certificados de las soluciones “EcoXpert” de Schneider Electric”, uno de los jugadores tecnológicos del mercado con una visión más holística, madura e innovadora del sector de la inmótica. ',
 
-
-
+    //SLIDER
+    'titulo_slider' => 'Automatización precisa y eficiente de instalaciones',
+    'cont_slider' => 'Optimiza tus sistemas de control con nuestros servicios de integración',
+    'btn_slider' => 'SERVICIOS'
 
 ];
 ?>
