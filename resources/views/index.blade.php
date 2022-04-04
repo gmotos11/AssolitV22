@@ -157,7 +157,7 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-  <!-- ======= End Carousel ======= -->
+  <!-- ======= End Carousel ======= --> 
 
   <!-- ======= Hero Section ======= -->
   <!--<section id="hero" class="d-flex align-items-center">
@@ -173,6 +173,7 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
+
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
             <img src="assets/img/body/Foto_Sección_Nosotros_Nosaltres_About.jpg" class="img-fluid" alt="">
@@ -180,12 +181,11 @@
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>{{trans('multi_leng.QS_Title')}}</h3>
             <p class="fst-italic">
-            <p>Antes estaba: {{trans('multi_leng.QS_firstP')}}<br>{{trans('multi_leng.QS_secondP')}}</p>
+            {{trans('multi_leng.QS_firstP')}}<br>{{trans('multi_leng.QS_secondP')}}
             </p>
             
               <ul>
-                <ul>Antes estaba esto pero quiero sumar esto mas otra cosa: <li class="text_large"><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_FirstTick')}}</li></ul></ul>
-                <ul>Segunda cosa</ul>
+                <li class="text_large"><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_FirstTick')}}</li></ul>
              
           </div>
           
