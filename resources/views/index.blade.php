@@ -108,8 +108,8 @@
 
     </div>
   </header><!-- End Header -->
-  <!-- ======= Carousel Section ======= -->
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+ <!-- ======= Carousel Section ======= -->
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -176,7 +176,7 @@
 
         <div class="row">
           <div class="col-lg-6 order-1 order-lg-2" data-aos="fade-left">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/body/Foto_Sección_Nosotros_Nosaltres_About.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
             <h3>{{trans('multi_leng.QS_Title')}}</h3>
@@ -184,18 +184,24 @@
             {{trans('multi_leng.QS_firstP')}}<br>{{trans('multi_leng.QS_secondP')}}
             </p>
             
-            <ul>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-            </ul>
-            <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
-            </p>
+              <ul>
+                <li class="text_large"><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_FirstTick')}}</li></ul>
+             
           </div>
+          
         </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+
+        <ul>
+                <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_SecondTick')}}</li>
+                <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_ThirdTick')}}</li>
+              </ul> 
+              <p>
+              {{trans('multi_leng.QS_ThirdTick')}}
+              </p>
+
+</div>
+</div>
 
       </div>
     </section><!-- End About Section -->
