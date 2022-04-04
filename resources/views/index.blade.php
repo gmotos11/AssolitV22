@@ -193,7 +193,7 @@
         <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
 
         <ul>
-                <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_SecondTick')}}</li>
+                <ul>Antes habia esto y quiero este texto mas esto: <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_SecondTick')}}</li></ul>
                 <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_ThirdTick')}}</li>
               </ul> 
               <p>
