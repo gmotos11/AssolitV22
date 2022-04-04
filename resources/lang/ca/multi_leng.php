@@ -27,6 +27,17 @@ return [
    'QS_ThirdTick'   => '	Proveemos de herramientas de la gestión simplificadas aportando de los equipos de mantenimiento de cada organización agilidad en la asimilación y operación de los sistemas sin tener que hacer frente a una compleja curva de aprendizaje. ',
    'QS_LastP'   => 'Trabajamos con los fabricantes lideres del mercado. Además, somos socios certificados de las soluciones “EcoXpert” de Schneider Electric”, uno de los jugadores tecnológicos del mercado con una visión más holística, madura e innovadora del sector de la inmótica. ',
 
+    //SLIDER
+   'titulo_slider' => "Automatització precisa i eficient d'instal·lacions",
+   'cont_slider' => "Optimitza els teus sistemes de control amb els nostres serveis d'integració",
+   'btn_slider' => 'SERVEIS',
+   'titulo_slider2' => "Sistemes de gestió integral d'edificis (BMS)",
+   'cont_slider2' => 'Provades, fiables i innovadores solucions tecnològiques ',
+   'btn_slider2' => 'SERVEIS',
+   'titulo_slider3' => 'Àmplia experiència en el disseny i integració de sistemes de control a edificis del sector terciari',
+   'btn_slider3' => 'PROJECTES',
+   'titulo_slider4' => "Solucions de monitorització dissenyades per a l'eficiència operativa",
+   'btn_slider4' => 'NOSALTRES',
 
 
 ];

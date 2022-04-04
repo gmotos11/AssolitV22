@@ -116,34 +116,35 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
       </ol>
-      <div class="carousel-inner" style="height: 500px">
+      <div class="carousel-inner" >
         <div class="carousel-item active">
           <img src="assets/img/slider/foto_slider_1.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption-config carousel-caption" style="font-weight: bold">
-            <h2>{{trans('multi_leng.titulo_slider')}}</h2>
+            <h1 class="bigger">{{trans('multi_leng.titulo_slider')}}</h1>
             <h5>{{trans('multi_leng.cont_slider')}}</h5>
             <a class="btn-slider" href="#">{{trans('multi_leng.btn_slider')}}</a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>{{trans('multi_leng.titulo_slider2')}}</h5>
-            <p>{{trans('multi_leng.cont_slider2')}}</p>
+          <img src="assets/img/slider/foto_slider_2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption-config carousel-caption">
+            <h1 class="bigger">{{trans('multi_leng.titulo_slider2')}}</h1>
+            <h5>{{trans('multi_leng.cont_slider2')}}</h5>
+            <a class="btn-slider" href="#">{{trans('multi_leng.btn_slider2')}}</a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>{{trans('multi_leng.titulo_slider3')}}</h5>
-            <p>{{trans('multi_leng.titulo_slider3')}}</p>
+          <img src="assets/img/slider/foto_slider_3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption-config carousel-caption">
+            <h1 class="bigger">{{trans('multi_leng.titulo_slider3')}}</h1>
+            <a class="btn-slider" href="#">{{trans('multi_leng.btn_slider3')}}</a>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="assets/img/slider-example3.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>{{trans('multi_leng.titulo_slider4')}}</h5>
-            <p>{{trans('multi_leng.titulo_slider4')}}</p>
+          <img src="assets/img/slider/foto_slider_4.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption-config carousel-caption">
+            <h1 class="bigger">{{trans('multi_leng.titulo_slider4')}}</h1>
+            <a class="btn-slider" href="#">{{trans('multi_leng.btn_slider4')}}</a>
           </div>
         </div>
       </div>

@@ -30,7 +30,14 @@ return [
     //SLIDER
     'titulo_slider' => 'Automatización precisa y eficiente de instalaciones',
     'cont_slider' => 'Optimiza tus sistemas de control con nuestros servicios de integración',
-    'btn_slider' => 'SERVICIOS'
+    'btn_slider' => 'SERVICIOS',
+    'titulo_slider2' => 'Sistemas de gestión integral de edificios (BMS)',
+    'cont_slider2' => 'Probadas, confiables e innovadoras soluciones tecnológicas',
+    'btn_slider2' => 'SERVICIOS',
+    'titulo_slider3' => 'Amplia experiencia en el diseño e integración de sistemas de control en edificios del sector terciario',
+    'btn_slider3' => 'PROYECTOS',
+    'titulo_slider4' => 'Soluciones de monitorización diseñadas para la eficiencia operativa',
+    'btn_slider4' => 'NOSOTROS',
 
 ];
 ?>
