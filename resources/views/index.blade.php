@@ -190,16 +190,19 @@
           </div>
           
         </div>
-        <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+        <div class="row">
+
+        <div class="col-lg-12 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
 
         <ul>
-                <ul>Antes habia esto y quiero este texto mas esto: <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_SecondTick')}}</li></ul>
+                <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_SecondTick')}}</li>
                 <li><i class="bi bi-check-circle"></i>{{trans('multi_leng.QS_ThirdTick')}}</li>
               </ul> 
               <p>
               {{trans('multi_leng.QS_ThirdTick')}}
               </p>
 
+</div>
 </div>
 </div>
 
@@ -215,24 +218,24 @@
           <div class="col-lg-4" data-aos="fade-up">
             <div class="box">
               <span>01</span>
-              <h4>Lorem Ipsum</h4>
-              <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
+              <h4> {{trans('multi_leng.titulo_whyus')}}</h4>
+              <p> {{trans('multi_leng.cont_whyus')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="150">
             <div class="box">
               <span>02</span>
-              <h4>Repellat Nihil</h4>
-              <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+              <h4> {{trans('multi_leng.titulo_whyus2')}}</h4>
+              <p> {{trans('multi_leng.cont_whyus2')}}</p>
             </div>
           </div>
           
           <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="box">
               <span>03</span>
-              <h4> Ad ad velit qui</h4>
-              <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+              <h4> {{trans('multi_leng.titulo_whyus3')}}</h4>
+              <p> {{trans('multi_leng.cont_whyus3')}}</p>
             </div>
           </div>
 
@@ -248,29 +251,68 @@
         <div class="row d-flex align-items-center">
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/bacnet.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/schneider.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/knx.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/lonworks.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/modbus.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/apc.png" class="img-fluid" alt="">
           </div>
 
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/dali.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/enocean.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/intesis.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/mbus.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/apc.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/kamstrup.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/wave.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/zigbee.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/wifi.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6">
+            <img src="assets/img/clients/bluetooth.png" class="img-fluid" alt="">
+          </div>
         </div>
 
       </div>

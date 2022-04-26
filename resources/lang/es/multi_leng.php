@@ -18,6 +18,8 @@ return [
     'idioma_img_ES'   => 'assets/img/leng/lengES.jpg',
     'idioma_img_EN'   => 'assets/img/leng/lengEN.png',
 
+
+
     //QUIENES SOMOS
     'QS_Title'   => 'Somos tu socio de confianza en la integración de sistemas de automatización de edificios',
     'QS_firstP'   => 'Estamos especializados en el diseño, programación, integración, mantenimiento y evolución de arquitecturas BMS (Building Managment Systems) en edificios principalmente del sector terciario.',
@@ -40,6 +42,12 @@ return [
     'titulo_slider4' => 'Soluciones de monitorización diseñadas para la eficiencia operativa',
     'btn_slider4' => 'NOSOTROS',
 
-
+    //--- ----    
+    'titulo_whyus' => 'DISEÑO, DESPLIEGUE E INTEGRACIÓN DE BMS PARA NUEVAS EDIFICACIONES',
+    'cont_whyus' => 'Servicios de diseño, despliegue e integración de modernos sistemas BMS para nuevas construcciones de edificios terciarios. Contacte con nuestros especialistas para asegurar que se escoge la tecnología de control y automatización más apropiada para el proyecto.',
+    'titulo_whyus2' => 'MIGRACIONES, ACTUALIZACIONES Y REDISEÑO DE SISTEMAS BMS “LEGACY” EN OPERACIÓN ',
+    'cont_whyus2' => 'Ofrecemos servicios especializados de migración y actualización a sistemas BMS modernos en edificios con sistemas “legacy” como TAC Vista, Andover y Satchwell. Nuestra experiencia en migraciones a plataformas modernas y optimizadas en la gestión energética nos avala.',
+    'titulo_whyus3' => 'INTEGRACIÓN MULTI-SITE Y EVOLUCIÓN DE SISTEMAS BMS',
+    'cont_whyus3' => 'Diseñamos soluciones a medida de integración de proyectos multi-site (sucursales, clínicas y hospitales, centros educativos, tiendas retail, etc.) con el objetivo de homogeneizar y estandarizar, en una plataforma completamente integrada, la gestión y supervisión de los sistemas control de varios sitios de forma remota y segura.'
 ];
 ?>
