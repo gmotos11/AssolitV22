@@ -70,5 +70,13 @@ return [
 
     'service_title6' => "Assistència tècnica especialitzada i formació",
     'service_desc6' => "Fem accessible el nostre extens coneixement en l'automatització d'edificis, aportant assistència tècnica d'alta especialització davant de problemes de difícil solució i també serveis de formació a mida a gestors i integradors de sistemes BMS.",
+
+    //== PROJECTS ==
+    'projects_title' => 'Projectes',
+    'projects_subtitle' => 'Projectes implementats gràcies a sistemes integrats de Assolit S.L.',
+    'projects_filterAll' => 'Tots',
+    'projects_filter1' => "Automatització d'dificis",
+    'projects_filter2' => 'Control de clima',
+    'projects_filter3' => 'Gestió energètica',
 ];
 ?>

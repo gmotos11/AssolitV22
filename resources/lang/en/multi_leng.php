@@ -73,7 +73,13 @@ return [
     'service_title6' => 'Specialized technical assistance and training',
     'service_desc6' => 'We make our extensive knowledge of building automation accessible, providing highly specialized technical assistance for issues that are difficult to solve. Also. We offer tailor-made training services for managers and integrators of BMS systems.',
     
-
+    //== PROJECTS ==
+    'projects_title' => 'Projects',
+    'projects_subtitle' => 'Projects implemented thanks to integrated systems of Assolit S.L.',
+    'projects_filterAll' => 'All',
+    'projects_filter1' => "Building automation",
+    'projects_filter2' => 'Climate control',
+    'projects_filter3' => 'Energy management',
 
 ];
 ?>

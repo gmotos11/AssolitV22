@@ -71,5 +71,15 @@ return [
     'service_title6' => 'Asistencia técnica especializada y formación',
     'service_desc6' => 'Hacemos accesible nuestro extenso conocimiento en la automatización de edificios, aportando asistencia técnica de alta especialización ante problemas de difícil solución y servicios de formación a medida a gestores e integradores de sistemas BMS.',
 
+    //== CALL TO ACTION - CONTACT US ==
+    'contactus_title' => 'CONTACTA CON NOSOTROS',
+
+    //== PROJECTS ==
+    'projects_title' => 'Proyectos',
+    'projects_subtitle' => 'Proyectos implementados gracias a sistemas integrados de Assolit S.L.',
+    'projects_filterAll' => 'Todos',
+    'projects_filter1' => 'Automatización de edificios',
+    'projects_filter2' => 'Control de clima',
+    'projects_filter3' => 'Gestión energética',
 ];
 ?>

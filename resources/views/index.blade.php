@@ -318,69 +318,75 @@
       </div>
     </section><!-- End Clients Section -->
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
-      <div class="container">
-        <div class="section-title">
-          <span> {{trans('multi_leng.general_title')}} </span>
-          <h2> {{trans('multi_leng.general_title')}}</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-title">
+      <span> {{trans('multi_leng.general_title')}} </span>
+      <h2> {{trans('multi_leng.general_title')}}</h2>
+      <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
+        <div class="icon-box" onmouseout="ico1.style.color = 'white'" onmouseover="ico1.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico1" class="iconify"  data-icon="fa6-solid:building-user" data-width="30" data-height="30" style="color: white;"></i></div>
+      
+          <h4><a href="">{{trans('multi_leng.service_title1')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc1')}}</p>
         </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box"
-            >
-              <div class="icon"><i class="iconify"  data-icon="fa6-solid:building-user"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title1')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc1')}}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title2')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc2')}}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title3')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc3')}}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title4')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc4')}}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title5')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc5')}}</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">{{trans('multi_leng.service_title6')}}</a></h4>
-              <p>{{trans('multi_leng.service_desc6')}}</p>
-            </div>
-          </div>
-
-        </div>
-
       </div>
-    </section><!-- End Services Section -->
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
+      <div class="icon-box" onmouseout="ico2.style.color = 'white'" onmouseover="ico2.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico2" class="iconify"  data-icon="carbon:license-maintenance" style="color: white;"  style="color: white;" data-width="30" data-height="30"></i></div>
+          <h4><a href="">{{trans('multi_leng.service_title2')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc2')}}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+      <div class="icon-box" onmouseout="ico3.style.color = 'white'" onmouseover="ico3.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico3" class="iconify" data-width="30" data-height="30"  data-icon="ic:baseline-speed" style="color: white;"  style="color: white;"></i></div>
+          <h4><a href="">{{trans('multi_leng.service_title3')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc3')}}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
+      <div class="icon-box" onmouseout="ico4.style.color = 'white'"  onmouseover="ico4.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico4" class="iconify" data-width="30" data-height="30" data-icon="fa6-solid:boxes-packing" data-icon="eos-icons:system-image-outlined" style="color: white;"  style="color: white;"></i></div>
+          <h4><a href="">{{trans('multi_leng.service_title4')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc4')}}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
+      <div class="icon-box" onmouseout="ico5.style.color = 'white'" onmouseover="ico5.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico5" class="iconify" data-icon="eos-icons:system-image-outlined" style="color: white;" style="color: white;" data-width="30" data-height="30"></i></div>
+          <h4><a href="">{{trans('multi_leng.service_title5')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc5')}}</p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
+      <div class="icon-box" onmouseout="ico6.style.color = 'white'" onmouseover="ico6.style.color = 'red'" 
+        >
+          <div class="icon"><i id="ico6" class="iconify" data-icon="material-symbols:engineering-outline" style="color: white;" style="color: white;" data-width="30" data-height="30"></i></div>
+          <h4><a href="">{{trans('multi_leng.service_title6')}}</a></h4>
+          <p>{{trans('multi_leng.service_desc6')}}</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section><!-- End Services Section -->
 
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
@@ -400,25 +406,25 @@
       <div class="container">
 
         <div class="section-title">
-          <span>Portfolio</span>
-          <h2>Portfolio</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <span>{{trans('multi_leng.projects_title')}}</span>
+          <h2>{{trans('multi_leng.projects_title')}}</h2>
+          <p>{{trans('multi_leng.projects_subtitle')}}</p>
         </div>
 
         <div class="row" data-aos="fade-up">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter="*" class="filter-active">{{trans('multi_leng.projects_filterAll')}}</li>
+              <li data-filter=".filter-ai">{{trans('multi_leng.projects_filter1')}}</li>
+              <li data-filter=".filter-cc">{{trans('multi_leng.projects_filter2')}}</li>
+              <li data-filter=".filter-ge">{{trans('multi_leng.projects_filter3')}}</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="150">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
             <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 1</h4>
@@ -428,7 +434,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ge">
             <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
@@ -438,7 +444,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 2</h4>
@@ -448,7 +454,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cc">
             <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 2</h4>
@@ -458,7 +464,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ge">
             <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 2</h4>
@@ -468,7 +474,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ai">
             <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>App 3</h4>
@@ -478,7 +484,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cc">
             <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 1</h4>
@@ -488,7 +494,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cc">
             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Card 3</h4>
@@ -498,7 +504,7 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ge">
             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Web 3</h4>
