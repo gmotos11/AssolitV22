@@ -322,57 +322,58 @@
     <section id="services" class="services">
       <div class="container">
         <div class="section-title">
-          <span>Services</span>
-          <h2>Services</h2>
+          <span> {{trans('multi_leng.general_title')}} </span>
+          <h2> {{trans('multi_leng.general_title')}}</h2>
           <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="fade-up">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            <div class="icon-box"
+            >
+              <div class="icon"><i class="iconify"  data-icon="fa6-solid:building-user"></i></div>
+              <h4><a href="">{{trans('multi_leng.service_title1')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc1')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="150">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">{{trans('multi_leng.service_title2')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc2')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">{{trans('multi_leng.service_title3')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc3')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">{{trans('multi_leng.service_title4')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc4')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="600">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">{{trans('multi_leng.service_title5')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc5')}}</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="fade-up" data-aos-delay="750">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">{{trans('multi_leng.service_title6')}}</a></h4>
+              <p>{{trans('multi_leng.service_desc6')}}</p>
             </div>
           </div>
 
@@ -814,7 +815,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <!--<script src="assets/js/custom.js"></script>-->
-
+  <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
 </body>
 
 </html>

@@ -48,6 +48,27 @@ return [
     'titulo_whyus2' => 'MIGRACIONS, ACTUALITZACIONS I REDISSENY DE BMS LEGACY EN OPERACIÓ',
     'cont_whyus2' => 'Oferim serveis especialitzats de migració i actualització a sistemes BMS moderns en edificis amb sistemes “legacy” com ara TAC Vista, Andover i Satchwell. La nostra experiència en migracions a plataformes modernes i optimitzades a la gestió energètica ens avala.',
     'titulo_whyus3' => 'INTEGRACIÓ MULTI-SITE I EVOLUCIÓ DE SISTEMES BMS',
-    'cont_whyus3' => "Dissenyem solucions a mida d'integració de projectes “multisite” (sucursals, clíniques i hospitals, centres educatius, botigues retail, etc.) amb l'objectiu d'homogeneïtzar i estandarditzar, en una plataforma completament integrada, la gestió i supervisió dels sistemes control de diversos llocs de manera remota i segura."
+    'cont_whyus3' => "Dissenyem solucions a mida d'integració de projectes “multisite” (sucursals, clíniques i hospitals, centres educatius, botigues retail, etc.) amb l'objectiu d'homogeneïtzar i estandarditzar, en una plataforma completament integrada, la gestió i supervisió dels sistemes control de diversos llocs de manera remota i segura.",
+
+
+    //== services ==
+    'general_title' => 'SERVEIS',
+    'service_title1' => "Consultoria Automatització d'edificis",
+    'service_desc1' => "Servei de disseny i projecció a mida de sistemes BMS per a edificis terciaris de qualsevol ús. Davant de les necessitats específiques de cada escenari ideem l'arquitectura óptima de control, confort i generació d'eficiència de subministraments.",
+
+    'service_title2' => 'Integració de sistemes BMS',
+    'service_desc2' => "Desplegament i posada en marxa de sistemes BMS integrats amb instal·lacions existents com a centrals d'incendis, sistemes de control d'accessos, o eines de gestió energètica, etc.).",
+
+    'service_title3' => "Monitorització d'instal·lacions d'Inmòtica",
+    'service_desc3' => "Monitorització d'estats i notificacions de supervisió de variables d'ocupació, consum de recursos i confort (com la qualitat de l'aire).",
+
+    'service_title4' => "Aprovisionament de material especialitzat",
+    'service_desc4' => "Preparació al taller, lliurament i/o instal·lació d'elements de maquinari (PLCs, sensors, centrals de mesura, sondes, etc.) i llicències de programari.",
+    
+    'service_title5' => 'Manteniment i optimització de sistemes BMS.',
+    'service_desc5' => 'Serveis recurrents (preventius i evolutius) i esporàdics (correctius i reactius) de manteniment per assegurar que eficàcia operativa dels sistemes d’automatització i control.',
+
+    'service_title6' => "Assistència tècnica especialitzada i formació",
+    'service_desc6' => "Fem accessible el nostre extens coneixement en l'automatització d'edificis, aportant assistència tècnica d'alta especialització davant de problemes de difícil solució i també serveis de formació a mida a gestors i integradors de sistemes BMS.",
 ];
 ?>

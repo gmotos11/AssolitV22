@@ -42,12 +42,34 @@ return [
     'titulo_slider4' => 'Soluciones de monitorización diseñadas para la eficiencia operativa',
     'btn_slider4' => 'NOSOTROS',
 
-    //--- ----    
+    //== ==   
     'titulo_whyus' => 'DISEÑO, DESPLIEGUE E INTEGRACIÓN DE BMS PARA NUEVAS EDIFICACIONES',
     'cont_whyus' => 'Servicios de diseño, despliegue e integración de modernos sistemas BMS para nuevas construcciones de edificios terciarios. Contacte con nuestros especialistas para asegurar que se escoge la tecnología de control y automatización más apropiada para el proyecto.',
     'titulo_whyus2' => 'MIGRACIONES, ACTUALIZACIONES Y REDISEÑO DE SISTEMAS BMS “LEGACY” EN OPERACIÓN ',
     'cont_whyus2' => 'Ofrecemos servicios especializados de migración y actualización a sistemas BMS modernos en edificios con sistemas “legacy” como TAC Vista, Andover y Satchwell. Nuestra experiencia en migraciones a plataformas modernas y optimizadas en la gestión energética nos avala.',
     'titulo_whyus3' => 'INTEGRACIÓN MULTI-SITE Y EVOLUCIÓN DE SISTEMAS BMS',
-    'cont_whyus3' => 'Diseñamos soluciones a medida de integración de proyectos multi-site (sucursales, clínicas y hospitales, centros educativos, tiendas retail, etc.) con el objetivo de homogeneizar y estandarizar, en una plataforma completamente integrada, la gestión y supervisión de los sistemas control de varios sitios de forma remota y segura.'
+    'cont_whyus3' => 'Diseñamos soluciones a medida de integración de proyectos multi-site (sucursales, clínicas y hospitales, centros educativos, tiendas retail, etc.) con el objetivo de homogeneizar y estandarizar, en una plataforma completamente integrada, la gestión y supervisión de los sistemas control de varios sitios de forma remota y segura.',
+
+
+    //== services ==
+    'general_title' => 'SERVICIOS',
+    'service_title1' => 'Consultoría Automatización de edificios',
+    'service_desc1' => 'Servicio de diseño y proyección a medida de sistemas BMS para edificios terciarios de cualquier uso. Ante las necesidades específicas de cada escenario ideamos la arquitectura óptima de control, de confort y generación de eficiencia de suministros.',
+    
+    'service_title2' => 'Integración de sistemas BMS',
+    'service_desc2' => 'Despliegue y puesta en marcha de sistemas BMS integrados con instalaciones existentes como centrales de incendios, sistemas de control de accesos, o herramientas de gestión energética, etc.).',
+
+    'service_title3' => 'Monitorización de instalaciones de Inmótica',
+    'service_desc3' => 'Monitorización de estados y notificaciones de supervisión de variables de ocupación, de consumo de recursos y confort (como la calidad del aire).',
+
+    'service_title4' => 'Aprovisionamiento de material especializado',
+    'service_desc4' => 'Preparación en taller, entrega y/o instalación de elementos de hardware (PLCs, sensores, centrales de medida, sondas, etc.) y licencias de software.',
+    
+    'service_title5' => 'Mantenimiento y optimización de sistemas BMS.',
+    'service_desc5' => 'Servicios recurrentes (preventivos y evolutivos) y esporádicos (correctivos y reactivos) de mantenimiento para asegurar que eficacia operativa de los sistemas de automatización y control.',
+
+    'service_title6' => 'Asistencia técnica especializada y formación',
+    'service_desc6' => 'Hacemos accesible nuestro extenso conocimiento en la automatización de edificios, aportando asistencia técnica de alta especialización ante problemas de difícil solución y servicios de formación a medida a gestores e integradores de sistemas BMS.',
+
 ];
 ?>
