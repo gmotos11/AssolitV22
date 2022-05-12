@@ -2,7 +2,7 @@
 return [
        //==HEADER== 
        'home'   => 'Home',
-       'about'   => 'Us',
+       'about'   => 'About Us',
        'service'   => 'Services',
        'projects'   => 'Projects',
        'contact'   => 'Contact',
@@ -92,7 +92,7 @@ return [
     'check_msg' => 'By checking this box you would like to receive more information about our services, news and offers.',
     'spam_contact' => 'To prevent spam please solve this simple math problem below',
     'privacity_text_contact' => 'Privacy & Cookies Policy',
-    
+
     //== FOOTER ==
     'footer_aboutus' => 'About us',
     'footer_advice' => 'Legal advice',
