@@ -35,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  bottom: 105px;
+  bottom: 120px;
   z-index: 996;
   background: #cc1616;
   width: 40px;
@@ -553,7 +553,7 @@ section {
   text-align: center;
 }
 .clients img {
-  width: 50%;
+  width: 60%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
@@ -640,9 +640,10 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg_calltous.jpg") fixed center center;
   background-size: cover;
   padding: 120px 0;
+  text-shadow: -1px -1px 1px rgb(255 255 255 / 10%), 1px 1px 1px rgb(0 0 0 / 50%), 4px 4px 2px rgb(0 0 0 / 35%);
 }
 .cta h3 {
   color: #fff;
@@ -1158,7 +1159,7 @@ section {
   padding-bottom: 12px;
 }
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-top: 26px;
 }
 #footer .footer-top .footer-links ul {
   list-style: none;

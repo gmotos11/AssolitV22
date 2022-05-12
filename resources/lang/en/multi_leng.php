@@ -72,6 +72,10 @@ return [
 
     'service_title6' => 'Specialized technical assistance and training',
     'service_desc6' => 'We make our extensive knowledge of building automation accessible, providing highly specialized technical assistance for issues that are difficult to solve. Also. We offer tailor-made training services for managers and integrators of BMS systems.',
+    //== CALL TO ACTION - CONTACT US ==
+    'contactus_title' => 'CONTACT US',
+    'contactus_desc' => 'Send us a message through the contact form to learn more about how we can help you in your automation project.',
+    'contactus_btn' => 'CONTACT US',
     
     //== PROJECTS ==
     'projects_title' => 'Projects',
@@ -81,5 +85,20 @@ return [
     'projects_filter2' => 'Climate control',
     'projects_filter3' => 'Energy management',
 
-];
+    //== CONTACT ==
+    'contact_section_title' => 'CONTACT',
+    'contact_below' => 'Send us a message through the contact form so we can learn more about how we can help you with your automation project.',
+    'privacity_confirm' => 'By checking this box you confirm the you have read our privacy policy.',
+    'check_msg' => 'By checking this box you would like to receive more information about our services, news and offers.',
+    'spam_contact' => 'To prevent spam please solve this simple math problem below',
+    'privacity_text_contact' => 'Privacy & Cookies Policy',
+    
+    //== FOOTER ==
+    'footer_aboutus' => 'About us',
+    'footer_advice' => 'Legal advice',
+    'footer_policy' => 'Privacity policy and cookies',
+    'footer_services' => 'Services',
+    'footer_projects' => 'Projects',
+    'footer_contact' => 'Contact Assolit'
+    ];
 ?>

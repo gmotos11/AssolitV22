@@ -43,27 +43,18 @@
                 hideCookieDialog();
             }
 
+            //loop to check agree buttons
             const buttons = document.getElementsByClassName('js-cookie-consent-agree');
-
             for (let i = 0; i < buttons.length; ++i) {
                 buttons[i].addEventListener('click', consentWithCookies);
             }
-            /*
-            let parent = document.getElementsByClassName("js-cookie-consent-agree")[0].parentElement;
-            let deny = document.createElement("a");
-            deny.style = "margin-left: 20px;";
-            deny.innerText = "Deny Cookies";
-            deny.onclick = function (){
-                consentWithCookiesDeny();
-                hideCookieDialog();
-            }
-            deny.className = "cookie-buttons cursor-pointer flex items-center justify-center px-4 py-2 rounded-md text-sm font-medium";
-            parent.appendChild(deny); 
-            */
+            //loop to check deny buttons
             let deny = document.getElementsByClassName("js-cookie-consent-deny");
-            deny[0].onclick = function (){
-                consentWithCookiesDeny();
-                hideCookieDialog();
+            for (let i = 0; i < deny.length; ++i) {
+                deny[i].addEventListener('click', () => {
+                    consentWithCookiesDeny();
+                    hideCookieDialog();
+                });
             }
             return {
                 consentWithCookies: consentWithCookies,

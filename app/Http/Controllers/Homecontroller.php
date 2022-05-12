@@ -27,4 +27,15 @@ class Homecontroller extends Controller
         $idioma='english';
         return view('index',['idioma' =>$idioma ]);
     }
+    public function formulario(){
+
+        //SI SE ENVIA --> ECHO "OK"
+       
+        //mail("gerardmpgol@gmail.com","asuntillo","Este es el cuerpo del mensaje") ;
+      
+ 
+        //echo "The email message was sent.";
+        echo "OK";
+        //eN CASO DE UN ERROR --> ECHO ERROR
+     }
 }

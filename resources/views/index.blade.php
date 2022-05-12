@@ -26,7 +26,8 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/custom.css" rel="stylesheet">
@@ -41,7 +42,7 @@
 
 <body>
   <!-- ======= Top Bar ======= -->
-  <section id="topbar" class="d-flex align-items-center">
+  <!--<section id="topbar" class="d-flex align-items-center">
     <div class="container d-flex justify-content-center justify-content-md-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope-fill"></i><a href="mailto:contact@example.com">info@example.com</a>
@@ -54,18 +55,18 @@
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
       </div>
     </div>
-  </section>
+  </section>-->
 
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-    <a class="navbar-brand" href="#"><img class="img-logo" src="assets/img/assolit.png" ></a>
+    <a class="navbar-brand" href="#"><img src="assets/img/assolit.png" style="margin-top: 10px"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">{{trans('multi_leng.home')}}</a></li>
+          <li><a class="nav-link scrollto" href="#carouselExampleIndicators">{{trans('multi_leng.home')}}</a></li>
           <li><a class="nav-link scrollto" href="#about">{{trans('multi_leng.about')}}</a></li>
           <li><a class="nav-link scrollto" href="#services">{{trans('multi_leng.service')}}</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">{{trans('multi_leng.projects')}}</a></li>
@@ -243,13 +244,79 @@
 
       </div>
     </section><!-- End Why Us Section -->
-
     <!-- ======= Clients Section ======= -->
+    
     <section id="clients" class="clients">
+      <div data-aos="zoom-in">
+            <!--<img src="assets/img/clients/bacnet.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/schneider.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/knx.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/lonworks.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/modbus.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/apc.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/dali.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/enocean.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/intesis.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/mbus.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/kamstrup.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/wave.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/zigbee.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/wifi.png" class="img-fluid" alt="">
+            <img src="assets/img/clients/bluetooth.png" class="img-fluid" alt="">-->
+    <div class="slider">
+	<div class="slide-track">
+		<div class="slide">
+			<img src="assets/img/clients/bacnet.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/schneider.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/knx.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/lonworks.png" alt="" />
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/modbus.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/apc.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/dali.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/enocean.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/intesis.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/mbus.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/kamstrup.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/wave.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+			<img src="assets/img/clients/zigbee.png" class="img-fluid" alt="">
+		</div>
+    <div class="slide">
+      <img src="assets/img/clients/wifi.png" class="img-fluid" alt="">
+		</div>
+		<div class="slide">
+      <img src="assets/img/clients/bluetooth.png" class="img-fluid" alt="">
+		</div>
+	</div>
+</div>
+        </div>
+    </section>
+     <!--<section id="clients" class="clients">
       <div class="container" data-aos="zoom-in">
-
         <div class="row d-flex align-items-center">
-
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/bacnet.png" class="img-fluid" alt="">
           </div>
@@ -290,9 +357,6 @@
             <img src="assets/img/clients/mbus.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6">
-            <img src="assets/img/clients/apc.png" class="img-fluid" alt="">
-          </div>
 
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/kamstrup.png" class="img-fluid" alt="">
@@ -312,11 +376,12 @@
 
           <div class="col-lg-2 col-md-4 col-6">
             <img src="assets/img/clients/bluetooth.png" class="img-fluid" alt="">
-          </div>
+          </div> 
         </div>
 
       </div>
-    </section><!-- End Clients Section -->
+    </section>-->
+    <!-- End Clients Section -->
 
 <!-- ======= Services Section ======= -->
 <section id="services" class="services">
@@ -391,11 +456,10 @@
     <!-- ======= Cta Section ======= -->
     <section id="cta" class="cta">
       <div class="container" data-aos="zoom-in">
-
         <div class="text-center">
-          <h3>Call To Action</h3>
-          <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>{{trans('multi_leng.contactus_title')}}</h3>
+          <p>{{trans('multi_leng.contactus_desc')}}</p>
+          <a class="cta-btn" href="#">{{trans('multi_leng.contactus_btn')}}</a>
         </div>
 
       </div>
@@ -519,186 +583,25 @@
       </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Pricing</span>
-          <h2>Pricing</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in">
-            <div class="box featured">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="150">
-            <div class="box">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container">
-
-        <div class="section-title">
-          <span>Team</span>
-          <h2>Team</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-            <div class="member">
-              <img src="assets/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
-              <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-            <div class="member">
-              <img src="assets/img/team/team-2.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
-              <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in">
-            <div class="member">
-              <img src="assets/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
-              <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
-              </p>
-              <div class="social">
-                <a href=""><i class="bi bi-twitter"></i></a>
-                <a href=""><i class="bi bi-facebook"></i></a>
-                <a href=""><i class="bi bi-instagram"></i></a>
-                <a href=""><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="container">
 
         <div class="section-title">
-          <span>Contact</span>
-          <h2>Contact</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+          <span>{{trans('multi_leng.contact_section_title')}}</span>
+          <h2>{{trans('multi_leng.contact_section_title')}}</h2>
+
+          <p style="text-align: center;margin-left: 200px;
+          margin-right: 200px;">{{trans('multi_leng.contact_below')}}</p>
         </div>
 
         <div class="row" data-aos="fade-up">
-          <div class="col-lg-6">
-            <div class="info-box mb-4">
-              <i class="bx bx-map"></i>
-              <h3>Our Address</h3>
-              <p>A108 Adam Street, New York, NY 535022</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-envelope"></i>
-              <h3>Email Us</h3>
-              <p>contact@example.com</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
-              <i class="bx bx-phone-call"></i>
-              <h3>Call Us</h3>
-              <p>+1 5589 55488 55</p>
-            </div>
-          </div>
-
         </div>
 
-        <div class="row" data-aos="fade-up">
-
+        <div class="row justify-content-center" data-aos="fade-up">
           <div class="col-lg-6 ">
-          <iframe class="mb-4 mb-lg-0" src="https://maps.google.com/maps?q=Assolit&t=&z=17&ie=UTF8&iwloc=&output=embed" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="{{ url('form_contact')  }}" method="post" id="subForm" role="form" class="php-email-form">
+              @csrf
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
@@ -713,12 +616,30 @@
               <div class="form-group mt-3">
                 <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
               </div>
+              <label><input type="checkbox" id="cbox1" value="first_checkbox"> {{trans('multi_leng.privacity_confirm')}}&nbsp;&nbsp;<a href="#" data-toggle="modal" style="margin-left: -20px; color:red"  data-target="#cookiePrivacity" class="nav-link">
+                {{trans('multi_leng.privacity_text_contact')}}</a></label>
+
+              <label><input type="checkbox" id="cbox1" value="first_checkbox"> {{trans('multi_leng.check_msg')}}</label>
+             
+
+            <p style="font-size: 14px;"><b>{{trans('multi_leng.spam_contact')}}</b></p>
+            
+
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
+              <div class="text-center" class="col-12" >
+              
+         
+  <label id="ebcaptchatext"></label>
+  <input type="text" class="textbox" id="ebcaptchainput"/>
+              </div>
+              <div class="my-1 mt-3">
               <div class="text-center"><button type="submit">Send Message</button></div>
+
+          </div>
             </form>
           </div>
 
@@ -735,7 +656,14 @@
         <div class="row">
 
           <div class="col-lg-4 col-md-6">
-            <div class="footer-info">
+            <div>
+              <img class="img-footer" src="assets/img/assolit.png" />
+              <p>C/ Sant Josep Obrer 23</p>
+              <p>08640 Olesa de Montserrat, Barcelona.</p>
+              <br>
+              <p>© ASSOLIT S.L</p>
+            </div>
+            <!--<div class="footer-info">
               <h3>Day</h3>
               <p>
                 A108 Adam Street <br>
@@ -750,38 +678,34 @@
                 <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
-            </div>
+            </div>-->
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">{{trans('multi_leng.footer_aboutus')}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{trans('multi_leng.footer_advice')}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">{{trans('multi_leng.footer_policy')}}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#services">{{trans('multi_leng.footer_services')}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#portfolio">{{trans('multi_leng.footer_projects')}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#contact">{{trans('multi_leng.footer_contact')}}</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
+            <img class="ecoxpert-img" src="assets/img/ecoxpert.png">
+            <!--<div class="ecoxpert-img">
+            </div>-->
+            <!--<h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
+            </form>-->
           </div>
 
         </div>
@@ -820,8 +744,9 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  <!--<script src="assets/js/custom.js"></script>-->
   <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="assets/js/custom.js"></script>
 </body>
 
 </html>

@@ -73,6 +73,8 @@ return [
 
     //== CALL TO ACTION - CONTACT US ==
     'contactus_title' => 'CONTACTA CON NOSOTROS',
+    'contactus_desc' => 'Envíanos un mensaje a través del formulario de contacto para conocer más sobre cómo podemos ayudaros en vuestro proyecto de automatización',
+    'contactus_btn' => 'CONTACTAR',
 
     //== PROJECTS ==
     'projects_title' => 'Proyectos',
@@ -81,5 +83,20 @@ return [
     'projects_filter1' => 'Automatización de edificios',
     'projects_filter2' => 'Control de clima',
     'projects_filter3' => 'Gestión energética',
+    //== CONTACT ==
+
+    'contact_section_title' => 'CONTACTO',
+    'contact_below' => 'Envíanos un mensaje a través del formulario de contacto para conocer más sobre cómo podemos ayudaros con vuestro proyecto de automatización.',
+    'privacity_confirm' => 'Al marcar esta casilla confirmas que has leído nuestra política de privacidad.',
+    'check_msg' => 'Marcando esta casilla te gustaría recibir más información sobre nuestros servicios, novedades y ofertas.',
+    'spam_contact' => 'Para evitar el spam, resuelva este simple problema matemático',
+    'privacity_text_contact' => 'Política de privacidad y cookies',
+    //== FOOTER ==
+    'footer_aboutus' => 'Sobre nosotros',
+    'footer_advice' => 'Aviso legal',
+    'footer_policy' => 'Politica de privacidad y cookies',
+    'footer_services' => 'Servicios',
+    'footer_projects' => 'Proyectos',
+    'footer_contact' => 'Contacta Assolit'
 ];
 ?>

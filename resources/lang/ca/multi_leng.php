@@ -70,7 +70,10 @@ return [
 
     'service_title6' => "Assistència tècnica especialitzada i formació",
     'service_desc6' => "Fem accessible el nostre extens coneixement en l'automatització d'edificis, aportant assistència tècnica d'alta especialització davant de problemes de difícil solució i també serveis de formació a mida a gestors i integradors de sistemes BMS.",
-
+    //== CALL TO ACTION - CONTACT US ==
+    'contactus_title' => 'CONTACTA AMB NOSALTRES',
+    'contactus_desc' => "Envieu-nos un missatge a través del formulari de contacte per conèixer més sobre com us podem ajudar en el vostre projecte d'automatització.",
+    'contactus_btn' => 'CONTACTAR',
     //== PROJECTS ==
     'projects_title' => 'Projectes',
     'projects_subtitle' => 'Projectes implementats gràcies a sistemes integrats de Assolit S.L.',
@@ -78,5 +81,21 @@ return [
     'projects_filter1' => "Automatització d'dificis",
     'projects_filter2' => 'Control de clima',
     'projects_filter3' => 'Gestió energètica',
+    //== CONTACT ==
+    'contact_section_title' => 'CONTACTE',
+    'contact_below' => "Envieu-nos un missatge a través del formulari de contacte per conèixer més sobre com us podem ajudar amb el vostre projecte d'automatització.",
+    'privacity_confirm' => 'Marcant aquesta casella confirmeu que heu llegit la nostra política de privadesa.',
+    'check_msg' => 'Marcant aquesta casella desitja rebre més informació sobre els nostres serveis, notícies i ofertes.',
+    'spam_contact' => 'Per evitar el correu brossa, resolgui aquest simple problema matemàtic',
+    'privacity_text_contact' => 'Política de privacidad y cookies',
+
+    //== FOOTER ==
+    'footer_aboutus' => 'Sobre nosaltres',
+    'footer_advice' => 'Avís legal',
+    'footer_policy' => 'Política de privacitat i cookies',
+    'footer_services' => 'Serveis',
+    'footer_projects' => 'Projectes',
+    'footer_contact' => 'Contacta Assolit'
+    
 ];
 ?>
