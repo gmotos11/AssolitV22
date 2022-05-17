@@ -38,4 +38,16 @@ class Homecontroller extends Controller
         echo "OK";
         //eN CASO DE UN ERROR --> ECHO ERROR
      }
+
+
+     public function legal_notice(){
+        return view('legal_notice',['idioma' =>"english" ]);
+
+        //return view('');
+     }
+
+
+
+
+     
 }

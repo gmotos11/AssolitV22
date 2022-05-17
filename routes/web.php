@@ -24,3 +24,6 @@ Route::get('/',[Homecontroller::class,'indexES']);
 Route::get('/ca',[Homecontroller::class,'indexCA']);
 Route::get('/en',[Homecontroller::class,'indexEN']);
 Route::post('/form_contact',[Homecontroller::class,'formulario']);
+
+Route::get('/legal_notice',[Homecontroller::class,'legal_notice']);
+

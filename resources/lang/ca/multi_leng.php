@@ -95,7 +95,26 @@ return [
     'footer_policy' => 'Política de privacitat i cookies',
     'footer_services' => 'Serveis',
     'footer_projects' => 'Projectes',
-    'footer_contact' => 'Contacta Assolit'
+    'footer_contact' => 'Contacta Assolit',
+
+
+    //==AVISO LEGAL==
+
+    'AL_I1_T1' => 'I. INFORMACIÓN GENERAL',
+    'AL_I1_P1' => 'En cumplimiento del deber de información previsto en la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico (LSSI-CE) de 11 de julio, a continuación, se facilita la siguiente información general de este sitio web',
+    'AL_I1_P2' => 'La propiedad del sitio web “assolit.com” (en adelante, Sitio Web) lo posee: ASSOLIT S.L., provisto con CIF B65267189 e inscrito en: el Registro Mercantil de Barcelona con los siguientes datos registrales: TOMO 41723, FOLIO 73, HOJA B394656, cuyo representante es: ASSOLIT S.L. y cuyos datos de contacto son:',
+    'AL_I1_direccion' => 'Dirección: C/Sant Josep Obrer, nº 23 Local 9, 08640 Olesa de Montserrat.',
+    'AL_I1_num_contacto' => ' Número de contacto: 622 64 56 01',
+    'AL_I1_correo' => 'Dirección de correo: assolit@assolit.com.',
+
+   
+
+
+
+
+
+
+
     
 ];
 ?>

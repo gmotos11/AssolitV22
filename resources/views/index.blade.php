@@ -459,7 +459,7 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a class="scrollto" href="#about">{{trans('multi_leng.footer_aboutus')}}</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">{{trans('multi_leng.footer_advice')}}</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/legal_notice">{{trans('multi_leng.footer_advice')}}</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">{{trans('multi_leng.footer_policy')}}</a></li>
             </ul>
           </div>
@@ -520,7 +520,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
   <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajaxs/libs/slick-carousel/1.6.0/slick.js"></script>
   <script src="assets/js/custom.js"></script>
 </body>
 
